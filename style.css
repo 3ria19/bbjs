@@ -1,4 +1,9 @@
-
+h3{
+    font-size: 3rem;
+}
+h5{
+    font-size: 1rem;
+}
 
 
 
@@ -33,7 +38,7 @@ a{
 }
 
 .hero_sec{
-    height: 70vh;
+    height: 90vh;
     display: flex;
     background-image: url('images/boy.jpg');
     background-size: cover;
@@ -96,52 +101,93 @@ h1{
 }
 
 .about_sec{
+    height: 80vh;
+    width: 80%;
+    margin-left: 10%;
     display: flex;
-    height: 70vh;
-    gap: 10%;
+    border: 7px solid rgb(159, 189, 250);
+    border-radius: 35px;
 }
-.about_sec_head{
-    height: 20%;
-    align-content: center;
-}
-
-.about_sec_head h2, h4{
-    text-align: center;
-}
-h2{
-    color: rgb(82, 113, 252);
-    font-size: 3.3rem;
-}
-
-h4{
-    color: rgb(0, 2, 8);
-    font-size: 1.5rem;
-    padding-left: 85px;
-    padding-right: 85px;
-}
-
-.about_sec_description{
-    align-content: center;
-    height: 80%;
-}
-
 .about_content, .about_ssion{
-    width: 45%;
-    background-color: rgb(174, 174, 177);
-    height: 100%;
-    flex: 1;
+    width: 50%;
 }
+
+.about_sec_head{
+    height: 15%;
+}
+.about_sec_head h3{
+    text-align: center;
+    word-spacing: 5px;
+}
+.about_sec_description{
+    height: 35%;
+    align-content: center;
+}
+
+.about_sec_description h5{
+    font-size: 1rem;
+    word-spacing: 5px;
+    text-align: ;
+}
+
 
 
 .academic_sec{
     height: 70vh;
-    display: flex;
-    background-color: aqua;
+    width: 80%;
+    margin: 10%;
+    border-radius: 35px;
+}
+.academic_content{
+    height: 30%;
 }
 
+.academic_programs{
+    height: 70%;
+    display: flex;
+}
+
+.baby_class, .middle_class, .top_class, .primary_section{
+    margin: 8px;
+    flex: 1;
+    border: 7px solid rgb(159, 189, 250);
+    border-radius: 30px;
+}
+
+.academic_head h3{
+    text-align: center;
+}
+
+.academic_head_four h5{
+    text-align: center;
+    font-size: 1.6rem;
+}
+
+
 .gallery_sec{
-    height: 70vh;
-    background-color: #f54646;
+    width: 96%;
+    height: 90vh;
+    margin: 2%;
+    border-radius: 25px;
+    background-color: rgb(238, 243, 255);
+}
+.gallery_top{
+    height: 20%;
+}
+.gallery_images{
+    height: 80%;
+    border: 3px solid rgb(159, 189, 250);
+    border-radius: 18px;
+}
+
+.gallery_head h3{
+    text-align: center;
+    padding-top: 20px;
+}
+
+.gallery_desc h5{
+    text-align: center;
+    font-size: 1.2rem;
 }
 
 .contact_sec{
